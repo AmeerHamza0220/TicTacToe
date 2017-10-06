@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.lablnet.tictac.MainActivity"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/reset"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Reset" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="" />
+
+</LinearLayout>
